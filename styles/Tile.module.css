@@ -1,0 +1,67 @@
+@value base-size: 5rem;
+
+.tiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.tile {
+  color:rgb(69, 69, 141);
+  background: rgb(255, 250, 235);
+  border:calc(base-size*.01) solid rgba(175, 140, 107, 0.799);
+  border-radius: calc(base-size*.05);
+  box-shadow: calc(base-size*.02) calc(base-size*.02) rgb(214, 194, 173);
+  margin:calc(base-size*.02);
+  text-align: center;
+  font-family: Lucida Bright; 
+}
+
+.letter {
+  font-size: calc(base-size*.8);
+  width: base-size;
+  height: base-size;
+}
+
+.points {
+  font-size: calc(base-size*.2);
+}
+
+.tile:hover {
+  background: hsl(42, 95%, 96%);
+}
+
+.tile:focus,
+.tile:active {
+  color:rgb(98, 78, 125);
+  height: calc(base-size*.99);
+  width: calc(base-size*.99);
+  box-shadow: calc(base-size*.01) calc(base-size*.01) rgb(214, 194, 173);
+}
+
+.tile:focus .letter,
+.tile:active .letter {
+  font-size: calc(base-size*.79);;
+}
+
+.tile:focus .points,
+.tile:active .points {
+  font-size: calc(base-size*.19);
+} 
+
+.downKey {
+  color:rgb(69, 69, 141);
+  background: rgb(255, 250, 235);
+  border:calc(base-size*.01) solid rgba(175, 140, 107, 0.799);
+  border-radius: calc(base-size*.05);
+  box-shadow: calc(base-size*.02) calc(base-size*.02) rgb(214, 194, 173);
+  margin:calc(base-size*.02);
+  text-align: center;
+  font-family: Lucida Bright; 
+  height: calc(base-size*.99);
+  width: calc(base-size*.99);
+  box-shadow: calc(base-size*.01) calc(base-size*.01) rgb(214, 194, 173);
+}
+
+

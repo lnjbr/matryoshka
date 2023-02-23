@@ -1,0 +1,48 @@
+@value base-size: 5rem;
+.selectedLetters {
+  display: flex;
+}
+.selectedLetter {
+  color:rgb(69, 69, 141);
+  background: rgb(255, 250, 235);
+  border:calc(base-size*.01) solid rgba(175, 140, 107, 0.799);
+  border-radius: calc(base-size*.05);
+  box-shadow: calc(base-size*.02) calc(base-size*.02) rgb(214, 194, 173);
+  margin:calc(base-size*.02);
+  text-align: center;
+  font-family: Lucida Bright;
+  font-weight: bolder;  
+  width: calc(base-size/4);
+  height: calc(base-size/4);
+  display: inline-block;
+}
+
+.invalidWord {
+  color:rgb(69, 69, 141);
+  background: rgb(252, 215, 215);
+  border:calc(base-size*.01) solid rgba(175, 140, 107, 0.799);
+  border-radius: calc(base-size*.05);
+  box-shadow: calc(base-size*.02) calc(base-size*.02) rgb(214, 194, 173);
+  margin:calc(base-size*.02);
+  text-align: center;
+  font-family: Lucida Bright;
+  font-weight: bolder;  
+  width: calc(base-size/4);
+  height: calc(base-size/4);
+  display: inline-block;
+}
+
+.validWord {
+  color:rgb(69, 69, 141);
+  background: rgb(208, 243, 206);
+  border:calc(base-size*.01) solid rgba(175, 140, 107, 0.799);
+  border-radius: calc(base-size*.05);
+  box-shadow: calc(base-size*.02) calc(base-size*.02) rgb(214, 194, 173);
+  margin:calc(base-size*.02);
+  text-align: center;
+  font-family: Lucida Bright;
+  font-weight: bolder;  
+  width: calc(base-size/4);
+  height: calc(base-size/4);
+  display: inline-block;
+}

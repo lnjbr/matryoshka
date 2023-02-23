@@ -1,0 +1,18 @@
+@value base-size: 5rem;
+
+.buttonLayout {
+  display: flex;
+  flex-direction: column;
+}
+.button  {
+  font-weight: bold;
+  padding: calc(base-size*.08);
+  margin-top: calc(base-size*.05);
+  width: calc(base-size*8);
+}
+
+@media (max-width: 600px) {
+  .button {
+    width: calc(base-size*2);
+  }
+}
